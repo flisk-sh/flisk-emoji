@@ -5,6 +5,7 @@
 set -euo pipefail
 src="${1:?usage: build.sh /path/to/run-my-agents}"
 here="$(cd "$(dirname "$0")/.." && pwd)"
+mkdir -p "$here/svg" "$here/png" "$here/face" "$here/3d"
 bun "$here/scripts/export-svg.ts" "$src" "$here"
 for f in "$here"/svg/*.svg; do
   n="$(basename "$f" .svg)"
