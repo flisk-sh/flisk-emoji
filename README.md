@@ -22,6 +22,22 @@ Result: <img src="https://raw.githubusercontent.com/flisk-sh/flisk-emoji/main/pn
 
 **Anywhere else:** right-click the big image above, Copy image, paste.
 
+## The Flisk apps
+
+The icons of the Flisk apps, as images you can paste or upload anywhere, in the same sizes as the bolt.
+
+<p><img src="apps/png/citable-64.png" width="40" alt="Citable (AI Search Checker)"> <img src="apps/png/readme-checker-64.png" width="40" alt="README Checker"> <img src="apps/png/put-my-page-online-64.png" width="40" alt="Put My Page Online"> <img src="apps/png/helpdock-64.png" width="40" alt="Helpdock"> <img src="apps/png/build-me-an-app-64.png" width="40" alt="Build Me an App"></p>
+
+| Icon | App | Files |
+|---|---|---|
+| <img src="apps/png/citable-64.png" width="28" alt="Citable (AI Search Checker)"> | [Citable (AI Search Checker)](https://citable.flisk.si) | [citable.svg](apps/citable.svg), [512](apps/png/citable-512.png), [128](apps/png/citable-128.png), [64](apps/png/citable-64.png), [32](apps/png/citable-32.png) |
+| <img src="apps/png/readme-checker-64.png" width="28" alt="README Checker"> | [README Checker](https://readme.flisk.si) | [readme-checker.svg](apps/readme-checker.svg), [512](apps/png/readme-checker-512.png), [128](apps/png/readme-checker-128.png), [64](apps/png/readme-checker-64.png), [32](apps/png/readme-checker-32.png) |
+| <img src="apps/png/put-my-page-online-64.png" width="28" alt="Put My Page Online"> | [Put My Page Online](https://pages.flisk.si) | [put-my-page-online.svg](apps/put-my-page-online.svg), [512](apps/png/put-my-page-online-512.png), [128](apps/png/put-my-page-online-128.png), [64](apps/png/put-my-page-online-64.png), [32](apps/png/put-my-page-online-32.png) |
+| <img src="apps/png/helpdock-64.png" width="28" alt="Helpdock"> | [Helpdock](https://helpdock.flisk.sh) | [helpdock.svg](apps/helpdock.svg), [512](apps/png/helpdock-512.png), [128](apps/png/helpdock-128.png), [64](apps/png/helpdock-64.png), [32](apps/png/helpdock-32.png) |
+| <img src="apps/png/build-me-an-app-64.png" width="28" alt="Build Me an App"> | [Build Me an App](https://mcp.flisk.sh) | [build-me-an-app.svg](apps/build-me-an-app.svg), [512](apps/png/build-me-an-app-512.png), [128](apps/png/build-me-an-app-128.png), [64](apps/png/build-me-an-app-64.png), [32](apps/png/build-me-an-app-32.png) |
+
+Use them the same way as the bolt, for example in a GitHub README: `<img src="https://raw.githubusercontent.com/flisk-sh/flisk-emoji/main/apps/png/citable-64.png" width="20" alt="Citable">`.
+
 ## The Run My Agents cooks
 
 Twelve more: the agents of [Run My Agents](https://github.com/flisk-sh/run-my-agents), as emoji and 3D models. See [cooks/](cooks/README.md).
