@@ -22,6 +22,12 @@ Result: <img src="https://raw.githubusercontent.com/flisk-sh/flisk-emoji/main/pn
 
 **Anywhere else:** right-click the big image above, Copy image, paste.
 
+## The Run My Agents cooks
+
+Twelve more: the agents of [Run My Agents](https://github.com/flisk-sh/run-my-agents), as emoji and 3D models. See [cooks/](cooks/README.md).
+
+<p><img src="cooks/png/code-cook-64.png" width="40"> <img src="cooks/png/bug-cook-64.png" width="40"> <img src="cooks/png/design-cook-64.png" width="40"> <img src="cooks/png/video-cook-64.png" width="40"> <img src="cooks/png/refactor-cook-64.png" width="40"> <img src="cooks/png/feature-cook-64.png" width="40"></p>
+
 ## Files
 
 | File | Size |
