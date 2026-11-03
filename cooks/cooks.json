@@ -1,0 +1,98 @@
+[
+  {
+    "role": "Planner",
+    "slug": "planner",
+    "shape": "square",
+    "eyes": "dots",
+    "color": "#22c55e",
+    "extra": null
+  },
+  {
+    "role": "Code",
+    "slug": "code",
+    "shape": "circle",
+    "eyes": "visor",
+    "color": "#38bdf8",
+    "extra": null
+  },
+  {
+    "role": "Design",
+    "slug": "design",
+    "shape": "blob",
+    "eyes": "ovals",
+    "color": "#a78bfa",
+    "extra": null
+  },
+  {
+    "role": "Chores",
+    "slug": "chores",
+    "shape": "tall",
+    "eyes": "sleepy",
+    "color": "#a3a3a3",
+    "extra": null
+  },
+  {
+    "role": "Video",
+    "slug": "video",
+    "shape": "pill",
+    "eyes": "cyclops",
+    "color": "#f43f5e",
+    "extra": null
+  },
+  {
+    "role": "SEO",
+    "slug": "seo",
+    "shape": "square",
+    "eyes": "wide",
+    "color": "#f59e0b",
+    "extra": null
+  },
+  {
+    "role": "Social",
+    "slug": "social",
+    "shape": "circle",
+    "eyes": "happy",
+    "color": "#f472b6",
+    "extra": null
+  },
+  {
+    "role": "Calls",
+    "slug": "calls",
+    "shape": "pill",
+    "eyes": "bars",
+    "color": "#2dd4bf",
+    "extra": null
+  },
+  {
+    "role": "Calendar",
+    "slug": "calendar",
+    "shape": "tall",
+    "eyes": "squint",
+    "color": "#fb923c",
+    "extra": null
+  },
+  {
+    "role": "Bug",
+    "slug": "bug",
+    "shape": "blob",
+    "eyes": "squint",
+    "color": "#f87171",
+    "extra": "bug"
+  },
+  {
+    "role": "Refactor",
+    "slug": "refactor",
+    "shape": "square",
+    "eyes": "sleepy",
+    "color": "#f59e0b",
+    "extra": "refactor"
+  },
+  {
+    "role": "Feature",
+    "slug": "feature",
+    "shape": "pill",
+    "eyes": "wide",
+    "color": "#6ee7a0",
+    "extra": "feature"
+  }
+]
