@@ -63,7 +63,7 @@ Use them the same way as the bolt, for example in a GitHub README: `<img src="ht
 
 One icon for each kind of thing the [flisk.si](https://flisk.si) index lists, in the same tile style as the apps, for entries that have no logo of their own (a template, an example, a plugin).
 
-<p><img src="kinds/png/stack-64.png" width="40" alt="Stack"> <img src="kinds/png/plugin-64.png" width="40" alt="Plugin"> <img src="kinds/png/skills-64.png" width="40" alt="Skills"> <img src="kinds/png/template-64.png" width="40" alt="Template"> <img src="kinds/png/example-64.png" width="40" alt="Example"> <img src="kinds/png/lab-64.png" width="40" alt="Lab"> <img src="kinds/png/awesome-64.png" width="40" alt="Awesome list"> <img src="kinds/png/package-64.png" width="40" alt="Package"> <img src="kinds/png/checks-64.png" width="40" alt="Checks"> <img src="kinds/png/download-64.png" width="40" alt="Download"> <img src="kinds/png/doc-64.png" width="40" alt="Document"> <img src="kinds/png/emoji-64.png" width="40" alt="Flisk emoji"> <img src="kinds/png/website-64.png" width="40" alt="Website"> <img src="kinds/png/app-64.png" width="40" alt="Small app"> <img src="kinds/png/answer-64.png" width="40" alt="Answer"> <img src="kinds/png/check-page-64.png" width="40" alt="Check a page"></p>
+<p><img src="kinds/png/stack-64.png" width="40" alt="Stack"> <img src="kinds/png/plugin-64.png" width="40" alt="Plugin"> <img src="kinds/png/skills-64.png" width="40" alt="Skills"> <img src="kinds/png/template-64.png" width="40" alt="Template"> <img src="kinds/png/example-64.png" width="40" alt="Example"> <img src="kinds/png/lab-64.png" width="40" alt="Lab"> <img src="kinds/png/awesome-64.png" width="40" alt="Awesome list"> <img src="kinds/png/package-64.png" width="40" alt="Package"> <img src="kinds/png/checks-64.png" width="40" alt="Checks"> <img src="kinds/png/download-64.png" width="40" alt="Download"> <img src="kinds/png/doc-64.png" width="40" alt="Document"> <img src="kinds/png/emoji-64.png" width="40" alt="Flisk emoji"> <img src="kinds/png/website-64.png" width="40" alt="Website"> <img src="kinds/png/app-64.png" width="40" alt="Small app"> <img src="kinds/png/answer-64.png" width="40" alt="Answer"> <img src="kinds/png/check-page-64.png" width="40" alt="Check a page"> <img src="kinds/png/video-64.png" width="40" alt="Video"></p>
 
 | Icon | Kind | Files |
 |---|---|---|
@@ -83,6 +83,7 @@ One icon for each kind of thing the [flisk.si](https://flisk.si) index lists, in
 | <img src="kinds/png/app-64.png" width="28" alt="Small app"> | Small app | [app.svg](kinds/app.svg), [512](kinds/png/app-512.png), [128](kinds/png/app-128.png), [64](kinds/png/app-64.png), [32](kinds/png/app-32.png) |
 | <img src="kinds/png/answer-64.png" width="28" alt="Answer"> | Answer | [answer.svg](kinds/answer.svg), [512](kinds/png/answer-512.png), [128](kinds/png/answer-128.png), [64](kinds/png/answer-64.png), [32](kinds/png/answer-32.png) |
 | <img src="kinds/png/check-page-64.png" width="28" alt="Check a page"> | Check a page | [check-page.svg](kinds/check-page.svg), [512](kinds/png/check-page-512.png), [128](kinds/png/check-page-128.png), [64](kinds/png/check-page-64.png), [32](kinds/png/check-page-32.png) |
+| <img src="kinds/png/video-64.png" width="28" alt="Video"> | Video | [video.svg](kinds/video.svg), [512](kinds/png/video-512.png), [128](kinds/png/video-128.png), [64](kinds/png/video-64.png), [32](kinds/png/video-32.png) |
 
 ## The example repos
 
@@ -131,6 +132,32 @@ One icon for each page linked from the Enterprise and Resources menus of [flisk.
 Twelve more: the agents of [Run My Agents](https://github.com/flisk-sh/run-my-agents), as emoji and 3D models. See [cooks/](cooks/README.md).
 
 <p><img src="cooks/png/code-cook-64.png" width="40"> <img src="cooks/png/bug-cook-64.png" width="40"> <img src="cooks/png/design-cook-64.png" width="40"> <img src="cooks/png/video-cook-64.png" width="40"> <img src="cooks/png/refactor-cook-64.png" width="40"> <img src="cooks/png/feature-cook-64.png" width="40"></p>
+
+## Company logos
+
+The model and computer companies that chat.flisk.si and fleet.flisk.si work with. They are the companies' own logos and trademarks, not ours and not under this repo's MIT license: the SVGs come from [Simple Icons](https://simpleicons.org) or the company's own site icon, the PNGs from the company's site icon. Use one only next to that company's name, to point at it.
+
+<p><img src="providers/png/anthropic-128.png" width="40" alt="Anthropic"> <img src="providers/png/openai-128.png" width="40" alt="OpenAI"> <img src="providers/png/openrouter-128.png" width="40" alt="OpenRouter"> <img src="providers/png/daytona-128.png" width="40" alt="Daytona"> <img src="providers/png/blaxel-128.png" width="40" alt="Blaxel"> <img src="providers/png/upstash-128.png" width="40" alt="Upstash"> <img src="providers/png/e2b-128.png" width="40" alt="E2B"> <img src="providers/png/isorun-128.png" width="40" alt="Isorun"> <img src="providers/png/vercel-128.png" width="40" alt="Vercel"> <img src="providers/png/boat-128.png" width="40" alt="boat"> <img src="providers/png/hopx-128.png" width="40" alt="Hopx"> <img src="providers/png/runloop-128.png" width="40" alt="Runloop"> <img src="providers/png/sprites-128.png" width="40" alt="Fly Sprites"> <img src="providers/png/morph-128.png" width="40" alt="Morph"> <img src="providers/png/tensorlake-128.png" width="40" alt="Tensorlake"> <img src="providers/png/freestyle-128.png" width="40" alt="Freestyle"> <img src="providers/png/langsmith-128.png" width="40" alt="LangSmith"></p>
+
+| Logo | Company | Files |
+|---|---|---|
+| <img src="providers/png/anthropic-128.png" width="28" alt="Anthropic"> | Anthropic | [anthropic.svg](providers/anthropic.svg), [128](providers/png/anthropic-128.png) |
+| <img src="providers/png/openai-128.png" width="28" alt="OpenAI"> | OpenAI | [openai.svg](providers/openai.svg), [128](providers/png/openai-128.png) |
+| <img src="providers/png/openrouter-128.png" width="28" alt="OpenRouter"> | OpenRouter | [openrouter.svg](providers/openrouter.svg), [128](providers/png/openrouter-128.png) |
+| <img src="providers/png/daytona-128.png" width="28" alt="Daytona"> | Daytona | [daytona.svg](providers/daytona.svg), [128](providers/png/daytona-128.png) |
+| <img src="providers/png/blaxel-128.png" width="28" alt="Blaxel"> | Blaxel | [blaxel.svg](providers/blaxel.svg), [128](providers/png/blaxel-128.png) |
+| <img src="providers/png/upstash-128.png" width="28" alt="Upstash"> | Upstash | [upstash.svg](providers/upstash.svg), [128](providers/png/upstash-128.png) |
+| <img src="providers/png/e2b-128.png" width="28" alt="E2B"> | E2B | [e2b.png](providers/e2b.png), [128](providers/png/e2b-128.png) |
+| <img src="providers/png/isorun-128.png" width="28" alt="Isorun"> | Isorun | [isorun.svg](providers/isorun.svg), [128](providers/png/isorun-128.png) |
+| <img src="providers/png/vercel-128.png" width="28" alt="Vercel"> | Vercel | [vercel.svg](providers/vercel.svg), [128](providers/png/vercel-128.png) |
+| <img src="providers/png/boat-128.png" width="28" alt="boat"> | boat | [boat.svg](providers/boat.svg), [128](providers/png/boat-128.png) |
+| <img src="providers/png/hopx-128.png" width="28" alt="Hopx"> | Hopx | [hopx.png](providers/hopx.png), [128](providers/png/hopx-128.png) |
+| <img src="providers/png/runloop-128.png" width="28" alt="Runloop"> | Runloop | [runloop.png](providers/runloop.png), [128](providers/png/runloop-128.png) |
+| <img src="providers/png/sprites-128.png" width="28" alt="Fly Sprites"> | Fly Sprites | [sprites.png](providers/sprites.png), [128](providers/png/sprites-128.png) |
+| <img src="providers/png/morph-128.png" width="28" alt="Morph"> | Morph | [morph.png](providers/morph.png), [128](providers/png/morph-128.png) |
+| <img src="providers/png/tensorlake-128.png" width="28" alt="Tensorlake"> | Tensorlake | [tensorlake.svg](providers/tensorlake.svg), [128](providers/png/tensorlake-128.png) |
+| <img src="providers/png/freestyle-128.png" width="28" alt="Freestyle"> | Freestyle | [freestyle.png](providers/freestyle.png), [128](providers/png/freestyle-128.png) |
+| <img src="providers/png/langsmith-128.png" width="28" alt="LangSmith"> | LangSmith | [langsmith.svg](providers/langsmith.svg), [128](providers/png/langsmith-128.png) |
 
 ## Files
 
