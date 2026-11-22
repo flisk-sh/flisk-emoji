@@ -179,4 +179,14 @@ The model and computer companies that chat.flisk.si and fleet.flisk.si work with
 
 Unicode does not accept brand logos, so this cannot be a built-in emoji.
 
+## Export PNGs
+
+To rasterize 128 px and 512 px PNGs for every icon in `apps/`, `kinds/`, and `providers/`:
+
+```bash
+./scripts/export-png.sh
+```
+
+Writes PNGs into `png/<folder>/<name>-<size>.png`. Requires `rsvg-convert` (librsvg) or `resvg`.
+
 License: MIT, see [LICENSE](LICENSE).
