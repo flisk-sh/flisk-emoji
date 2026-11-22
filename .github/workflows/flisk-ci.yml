@@ -23,3 +23,13 @@ jobs:
       security-events: write
       actions: read
     uses: flisk-sh/.github/.github/workflows/codeql.yml@b5eeea945364038cd2143e9676b77fc9af293dfa # v1.4.0
+
+  readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Test the README icon check
+        run: python3 scripts/check_emoji_readme.test.py
+      - name: Check every icon is published in README.md
+        run: python3 scripts/check_emoji_readme.py
