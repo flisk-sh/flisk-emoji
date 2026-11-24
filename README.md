@@ -189,6 +189,6 @@ To rasterize 128 px and 512 px PNGs for every icon in `apps/`, `kinds/`, and `pr
 ./scripts/export-png.sh
 ```
 
-Writes PNGs into `png/<folder>/<name>-<size>.png`. Requires `rsvg-convert` (librsvg) or `resvg`.
+Writes PNGs into `<folder>/png/<name>-<size>.png`. Requires `rsvg-convert` (librsvg) or `resvg`.
 
 License: MIT, see [LICENSE](LICENSE).

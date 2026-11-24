@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Rasterize SVG icons in apps/, kinds/, and providers/ to PNG.
-# Writes 128 px and 512 px PNGs to png/<folder>/<name>-<size>.png.
+# Writes 128 px and 512 px PNGs to <folder>/png/<name>-<size>.png.
 
 set -euo pipefail
 
@@ -19,7 +19,7 @@ show_help() {
 Usage: ./scripts/export-png.sh [OPTIONS] [FOLDER...]
 
 Export 128 px and 512 px PNGs for each SVG in apps/, kinds/, and providers/
-into png/<folder>/<name>-<size>.png.
+into <folder>/png/<name>-<size>.png.
 
 Arguments:
   FOLDER...             Specific folder(s) to process (default: apps kinds providers)
@@ -142,11 +142,11 @@ for folder in "${FOLDERS[@]}"; do
     name="${filename%.svg}"
 
     for size in "${SIZES[@]}"; do
-      out="png/$folder/$name-$size.png"
+      out="$folder/png/$name-$size.png"
       rasterize "$svg" "$size" "$out"
       count=$((count + 1))
     done
   done
 done
 
-echo "Successfully exported $count PNGs to png/."
+echo "Successfully exported $count PNGs to the selected folders' png/ directories."

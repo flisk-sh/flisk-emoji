@@ -31,5 +31,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Test the README icon check
         run: python3 scripts/check_emoji_readme.test.py
+      - name: Test PNG export paths
+        run: python3 scripts/export-png.test.py
       - name: Check every icon is published in README.md
         run: python3 scripts/check_emoji_readme.py
