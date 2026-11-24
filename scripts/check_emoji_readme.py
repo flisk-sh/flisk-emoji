@@ -6,10 +6,12 @@ The check exits 1 with one line per problem so a missing icon is easy to spot in
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
 SIZES = (512, 128, 64, 32)
+ICON_LINK = re.compile(r"\]\((?:\./)?((?:apps|kinds)/[A-Za-z0-9_./-]+\.(?:svg|png))\)")
 
 
 def strip_block(readme: str, section: str) -> str:
@@ -24,6 +26,7 @@ def strip_block(readme: str, section: str) -> str:
 
 def check(root: Path) -> list[str]:
     readme = (root / "README.md").read_text(encoding="utf-8")
+    links = set(ICON_LINK.findall(readme))
     problems: list[str] = []
 
     for section in ("apps", "kinds"):
@@ -31,7 +34,7 @@ def check(root: Path) -> list[str]:
         strip = strip_block(readme, section)
         for svg in sorted(svg_dir.glob("*.svg")):
             name = svg.stem
-            if f"{section}/{name}.svg" not in readme:
+            if f"{section}/{name}.svg" not in links:
                 problems.append(f"{section}/{name}.svg is not listed in README.md")
             if f'{section}/png/{name}-64.png" width="40"' not in strip:
                 problems.append(f"{section}/png/{name}-64.png is missing from the README strip")
@@ -39,10 +42,13 @@ def check(root: Path) -> list[str]:
                 png = svg_dir / "png" / f"{name}-{size}.png"
                 if not png.is_file():
                     problems.append(f"missing {section}/png/{name}-{size}.png")
-                elif f"{section}/png/{name}-{size}.png" not in readme:
+                elif f"{section}/png/{name}-{size}.png" not in links:
                     problems.append(f"{section}/png/{name}-{size}.png is not linked in README.md")
 
-    # Every local icon link in the README must resolve.
+    # Both download links and inline thumbnails must resolve.
+    for path in sorted(links):
+        if not (root / path).is_file():
+            problems.append(f"README links a missing file: {path}")
     for token in readme.split('src="'):
         path = token.split('"', 1)[0]
         if (path.startswith("apps/") or path.startswith("kinds/")) and not (root / path).is_file():

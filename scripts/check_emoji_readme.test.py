@@ -58,6 +58,18 @@ class EmojiReadmeTest(unittest.TestCase):
         problems = check(fixture(full_readme(), with_pngs=False))
         self.assertTrue(any("missing apps/png/citable-512.png" in p for p in problems))
 
+    def test_broken_download_link_is_reported_even_when_the_thumbnail_exists(self) -> None:
+        readme = full_readme().replace(
+            "[64](apps/png/citable-64.png)", "[64](apps/png/citable-65.png)"
+        )
+        problems = check(fixture(readme))
+        self.assertIn("apps/png/citable-64.png is not linked in README.md", problems)
+        self.assertIn("README links a missing file: apps/png/citable-65.png", problems)
+
+    def test_plain_svg_path_does_not_count_as_a_link(self) -> None:
+        readme = full_readme().replace("[citable.svg](apps/citable.svg)", "`apps/citable.svg`")
+        self.assertIn("apps/citable.svg is not listed in README.md", check(fixture(readme)))
+
 
 if __name__ == "__main__":
     unittest.main()
